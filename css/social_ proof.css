@@ -1,0 +1,124 @@
+/* Start Global Rules */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Small */
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/* Medium */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+
+/* Large */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* End Global Rules */
+
+
+/* start section */
+
+.section {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section .container {
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.container .text {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -30px;
+}
+
+.container .text h1 {
+    color: #4c1b48;
+    font-size: 56px;
+}
+
+.container .text p {
+    color: #b2abb3;
+    margin-top: -30px;
+    font-size: 21px;
+    letter-spacing: -1.5px;
+}
+
+.container .rates {}
+
+.container .rate {
+    background-color: #f7f2f8;
+    color: #4c1b48;
+    height: 55px;
+    width: 389px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container .rates i {
+    color: #ffc107;
+}
+
+.card {}
+
+.card .images img {}
+
+.card .info {}
+
+.card .info h3 {}
+
+.card .info .title {}
+
+.card .info p {}
+
+
+/* End section */
